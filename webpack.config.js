@@ -10,11 +10,11 @@ module.exports = {
           loader: 'babel-loader',
           options: {
             presets: ['@babel/preset-env'],
-            plugins: ['@babel/plugin-transform-react-jsx']
+            plugins: [['@babel/plugin-transform-react-jsx', {pragma: 'createElement'}]]
           }
         }
       }
-    ]
+    ] 
   },
   mode: 'development',
   optimization: {
