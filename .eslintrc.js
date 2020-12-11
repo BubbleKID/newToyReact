@@ -18,5 +18,6 @@ module.exports = {
     'react',
   ],
   rules: {
+    'max-classes-per-file': ['error', 3],
   },
 };

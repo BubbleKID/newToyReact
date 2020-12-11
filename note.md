@@ -11,3 +11,15 @@
       e.appendChild(child);
     }
 ```
+## 理解 es6 class 中 constructor 方法 和 super 的作用
+    https://juejin.cn/post/6844903638674980872
+
+## Difference between Object.create and Object.assign
+    Object.assign() provides shallow copying (Only properties and methods) and it will override the method and property declared.
+
+    while Object.create() provides Deep copying provides prototype chain.
+
+    https://medium.com/angularfeedacademy/difference-between-object-create-and-object-assign-834d3ddfbc81
+
+## getter
+    https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Functions/get
